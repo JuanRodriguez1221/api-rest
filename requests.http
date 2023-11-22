@@ -1,0 +1,22 @@
+###
+POST http://localhost:3000/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Niko Bajaj",
+    "age": 55,
+    "email": "nikotomazda@email.com"
+}
+###
+GET http://localhost:3000/api/users HTTP/1.1
+###
+DELETE http://localhost:3000/api/users/655e41a9d3e2a39dff1be3dd HTTP/1.1
+###
+PUT http://localhost:3000/api/users/655cef21035103258c5cb474 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Juan Manuel",
+    "age": 17,
+    "email": "juanma@email.com"
+}
